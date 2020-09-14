@@ -5,4 +5,5 @@
 
 
 from microbit import*
-displayshow.(Image.Diamond)
+display.show.(Image.Diamond)
+*there was a missing do there :) (added by claire)
