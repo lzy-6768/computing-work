@@ -1,0 +1,8 @@
+
+#This code should show a diamond image on the micro:bit
+#but there is an error
+#Can you figure out how to fix it?
+
+
+from microbit import*
+displayshow.(Image.Diamond)
