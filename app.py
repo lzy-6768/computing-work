@@ -1,7 +1,9 @@
 print("Title of program: Encouragement bot")
 print()
+print("The examinations are just around the corner, are you feeling more and more stressed because of them? Don't worry, answer the following questions truthfully and we will provide you with some ways of magnaging your stress!" )
+print() 
 while True:
-  description = input("Could you describe how you feel in a sentence?")
+  description = input("How are you feeling because of stress now?")
 
   list_of_words = description.split()
 
