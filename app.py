@@ -20,13 +20,13 @@ while tracker !=1:
   answer = answer.lower()
   if answer == "a":
     output = "Yes, that's right!"
+    tracker =1
     score +=1
   elif answer == "b":
     output = "Wrong. There is a solute present in the option you have chosen."
     score -=1
   elif answer == "c":
     output = "Wrong. There is a solute present in the option you have chosen."
-    tracker =1
     score -=1
   elif answer == "d":
     output = "Wrong. There is a solute present in the option you have chosen."
@@ -101,10 +101,11 @@ while tracker !=1:
     score -=1
   elif answer == "c":
     output = "Yes, that's right!"
+    tracker =1
     score -=1
     
   elif answer == "d":
-    output = "Wrong. All matter can melt and boil at different substances, not only liquids!
+    output = "Wrong. All matter can melt and boil at different substances, not only liquids!"
     tracker =1
     score +=1
   else:
@@ -120,4 +121,3 @@ while tracker !=1:
   print()
   
 print("End of quiz!")
-  
